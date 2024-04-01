@@ -29,7 +29,6 @@ const HeaderBar = ({children}) => {
 		<SideBar open={sidebarOpen} callback={setSidebarOpen}></SideBar>
 		<Outlet/>
 	</>
-);
 };
 
 export default HeaderBar;
