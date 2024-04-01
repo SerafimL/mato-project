@@ -4,7 +4,9 @@ import HeaderBar from './components/headerBar/headerBar';
 function App() {
   return (
     <div className="App">
-      <HeaderBar/>
+      <HeaderBar>
+      </HeaderBar>
+      
     </div>
   );
 }
