@@ -1,10 +1,11 @@
 import { AppBar, Toolbar, IconButton, Typography, Link, Box } from "@mui/material";
 import { Cabin } from '@mui/icons-material';
 import Grid from '@mui/material/Unstable_Grid2';
+import { Outlet } from "react-router-dom";
 
 const HeaderBar = () => (
 	<>
-		<AppBar position="fixed">
+		<AppBar position="relative">
 			<Toolbar variant="dense">
 				<IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
 					<Cabin color="secundary"/>
@@ -21,6 +22,7 @@ const HeaderBar = () => (
 				</Box>
 			</Toolbar>
 		</AppBar>
+		<Outlet/>
 	</>
 );
 
