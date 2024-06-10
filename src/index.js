@@ -8,14 +8,17 @@ import { UserProvider } from "./context/user";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
-  palette: {
+	palette: {
 		primary: {
 			main: 'rgb(40, 40, 40)'
 		},
-    secondary: {
-      main: 'rgb(188, 188, 188)'
-    }
-  }
+		secondary: {
+			main: 'rgb(188, 188, 188)'
+		},
+		third: {
+			main: 'rgb(102, 221, 185)'
+		}
+	}
 });
     
 const root = ReactDOM.createRoot(document.getElementById("root"));

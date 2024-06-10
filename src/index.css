@@ -12,3 +12,8 @@ code {
     monospace;
 }
 
+.themes {
+  primary-color: rgb(40, 40, 40);
+  secundary-color: rgb(188, 188, 188);
+  third-color: rgb(102, 221, 185);
+}
